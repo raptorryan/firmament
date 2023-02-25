@@ -31,7 +31,19 @@ defmodule Firmament.MixProject do
   @spec project() :: project()
   def project() do
     [
+      aliases: [
+        "boundary.ex_doc_groups": "cmd mix boundary.ex_doc_groups",
+        "boundary.visualize": "cmd mix boundary.visualize",
+        credo: ["credo --config-name default", "cmd mix credo"],
+        docs: "cmd mix docs"
+      ],
       apps_path: "app",
+      deps: [
+        {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
+        {:dialyxir, "~> 1.2", only: :dev, runtime: false}
+      ],
+      deps_path: "dep",
+      dialyzer: [ignore_warnings: ".dialyzer.exs"],
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       version: "0.1.0"
