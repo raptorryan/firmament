@@ -1,0 +1,3 @@
+[submodule "app/adam"]
+  path = app/adam
+  url = https://github.com/diacritical/adam
