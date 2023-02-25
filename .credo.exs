@@ -121,6 +121,7 @@
           ".credo.exs",
           ".dialyzer.exs",
           ".formatter.exs",
+          "config/**/*.exs",
           "mix.{exs,lock}"
         ]
       },
