@@ -24,7 +24,7 @@ defmodule Firmament.MixProject do
       "app"
 
       iex> project()[:version]
-      "0.0.0"
+      "0.1.0"
 
   """
   @doc since: "0.1.0"
@@ -34,7 +34,7 @@ defmodule Firmament.MixProject do
       apps_path: "app",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
-      version: "0.0.0"
+      version: "0.1.0"
     ]
   end
 end
