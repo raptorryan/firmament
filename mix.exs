@@ -35,7 +35,7 @@ defmodule Firmament.MixProject do
   @typedoc since: "0.1.0"
   @type project() :: [project_keyword()]
 
-  @inc_app [adam: :permanent]
+  @inc_app [adam: :permanent, net_diacritical: :permanent]
 
   @spec config_providers(inc_app()) :: config_providers()
   defp config_providers(inc_app) when is_list(inc_app) do

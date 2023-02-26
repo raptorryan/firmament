@@ -1,3 +1,6 @@
 [submodule "app/adam"]
   path = app/adam
   url = https://github.com/diacritical/adam
+[submodule "app/net_diacritical"]
+  path = app/net_diacritical
+  url = https://github.com/diacritical/net_diacritical
