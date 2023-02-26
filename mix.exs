@@ -102,6 +102,7 @@ defmodule Firmament.MixProject do
         firmament: [
           applications: @inc_app,
           config_providers: config_providers(@inc_app),
+          overlays: ["rel/overlay"],
           steps: [:assemble, &cp_config!/1]
         ]
       ],
