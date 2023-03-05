@@ -88,7 +88,9 @@ defmodule Firmament.MixProject do
         "boundary.ex_doc_groups": "cmd mix boundary.ex_doc_groups",
         "boundary.visualize": "cmd mix boundary.visualize",
         credo: ["credo --config-name default", "cmd mix credo"],
-        docs: "cmd mix docs"
+        docs: "cmd mix docs",
+        "phx.digest": "cmd mix phx.digest",
+        "phx.digest.clean": "cmd mix phx.digest.clean"
       ],
       apps_path: "app",
       deps: [
