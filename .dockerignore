@@ -4,5 +4,6 @@ _build/
 app/*/boundary/
 app/*/cover/
 app/*/doc/
+app/*/priv/*_web/static/cache_manifest.json
 dep/
 erl_crash.dump
