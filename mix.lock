@@ -46,12 +46,12 @@
   castore: {
     :hex,
     :castore,
-    "1.0.0",
-    "c25cd0794c054ebe6908a86820c8b92b5695814479ec95eeff35192720b71eec",
+    "1.0.1",
+    "240b9edb4e9e94f8f56ab39d8d2d0a57f49e46c56aced8f873892df8ff64ff5a",
     [:mix],
     [],
     "hexpm",
-    "577d0e855983a97ca1dfa33cbb8a3b6ece6767397ffb4861514343b078fc284b"
+    "b4951de93c224d44fac71614beabd88b71932d0b1dea80d2f80fb9044e01bbb3"
   },
   credo: {
     :hex,
@@ -84,12 +84,12 @@
   earmark_parser: {
     :hex,
     :earmark_parser,
-    "1.4.30",
-    "0b938aa5b9bafd455056440cdaa2a79197ca5e693830b4a982beada840513c5f",
+    "1.4.31",
+    "a93921cdc6b9b869f519213d5bc79d9e218ba768d7270d46fdcf1c01bacff9e2",
     [:mix],
     [],
     "hexpm",
-    "3b5385c2d36b0473d0b206927b841343d25adb14f95f0110062506b300cd5a1b"
+    "317d367ee0335ef037a87e46c91a2269fef6306413f731e8ec11fc45a7efd059"
   },
   erlex: {
     :hex,
@@ -104,8 +104,8 @@
   ex_doc: {
     :hex,
     :ex_doc,
-    "0.29.1",
-    "b1c652fa5f92ee9cf15c75271168027f92039b3877094290a75abcaac82a9f77",
+    "0.29.2",
+    "dfa97532ba66910b2a3016a4bbd796f41a86fc71dd5227e96f4c8581fdf0fdf0",
     [:mix],
     [
       {
@@ -125,7 +125,7 @@
       }
     ],
     "hexpm",
-    "b7745fa6374a36daf484e2a2012274950e084815b936b1319aeebcf7809574f6"
+    "6b5d7139eda18a753e3250e27e4a929f8d2c880dd0d460cb9986305dea3e03af"
   },
   file_system: {
     :hex,
@@ -229,8 +229,8 @@
   phoenix: {
     :hex,
     :phoenix,
-    "1.7.0",
-    "cbed113bdc203e2ced75859011fe7e71eeebb6259cefa54de810d9c7048b5e22",
+    "1.7.1",
+    "a029bde19d9c3b559e5c3d06c78b76e81396bedd456a6acedb42f9c7b2e535a9",
     [:mix],
     [
       {:castore, ">= 0.0.0", hex: :castore, repo: "hexpm", optional: false},
@@ -273,7 +273,7 @@
       }
     ],
     "hexpm",
-    "8526139d4bd79ec97c5c3c8e69f6cd663597f782756cec874ba7da5429c93e34"
+    "ea9d4a85c3592e37efa07d0dc013254fda445885facaefddcbf646375c116457"
   },
   phoenix_pubsub: {
     :hex,
