@@ -101,6 +101,16 @@
     "hexpm",
     "2ed2e25711feb44d52b17d2780eabf998452f6efda104877a3881c2f8c0c0c75"
   },
+  esbuild: {
+    :hex,
+    :esbuild,
+    "0.6.1",
+    "a774bfa7b4512a1211bf15880b462be12a4c48ed753a170c68c63b2c95888150",
+    [:mix],
+    [{:castore, ">= 0.0.0", hex: :castore, repo: "hexpm", optional: false}],
+    "hexpm",
+    "569f7409fb5a932211573fc20e2a930a0d5cf3377c5b4f6506c651b1783a1678"
+  },
   ex_doc: {
     :hex,
     :ex_doc,
@@ -359,6 +369,16 @@
     [],
     "hexpm",
     "b5672099c6ad5c202c45f5a403f21a3411247f164e4a8fab056e5cd8a290f4a2"
+  },
+  tailwind: {
+    :hex,
+    :tailwind,
+    "0.1.10",
+    "21ed80ae1f411f747ee513470578acaaa1d0eb40170005350c5b0b6d07e2d624",
+    [:mix],
+    [{:castore, ">= 0.0.0", hex: :castore, repo: "hexpm", optional: false}],
+    "hexpm",
+    "e0fc474dfa8ed7a4573851ac69c5fd3ca70fbb0a5bada574d1d657ebc6f2f1f1"
   },
   telemetry: {
     :hex,
