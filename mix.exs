@@ -85,6 +85,9 @@ defmodule Firmament.MixProject do
   def project() do
     [
       aliases: [
+        "asset.build": "cmd mix asset.build",
+        "asset.deploy": "cmd mix asset.deploy",
+        "asset.setup": "cmd mix asset.setup",
         "boundary.ex_doc_groups": "cmd mix boundary.ex_doc_groups",
         "boundary.visualize": "cmd mix boundary.visualize",
         credo: ["credo --config-name default", "cmd mix credo"],
