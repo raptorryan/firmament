@@ -1,6 +1,6 @@
 ARG ELIXIR="1.14.3"
-ARG OTP="25.2.3"
-ARG DEBIAN="bullseye-20230202-slim"
+ARG OTP="25.3"
+ARG DEBIAN="bullseye-20230227-slim"
 
 ARG BUILD="hexpm/elixir:${ELIXIR}-erlang-${OTP}-debian-${DEBIAN}"
 ARG APP="debian:${DEBIAN}"
