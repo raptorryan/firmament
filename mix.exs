@@ -108,7 +108,8 @@ defmodule Firmament.MixProject do
           applications: @inc_app,
           config_providers: config_providers(@inc_app),
           overlays: ["rel/overlay"],
-          steps: [:assemble, &cp_config!/1]
+          steps: [:assemble, &cp_config!/1],
+          validate_compile_env: false
         ]
       ],
       start_permanent: Mix.env() == :prod,
